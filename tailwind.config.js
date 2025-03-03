@@ -4,13 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        divider2: '#D0CFCE',
+        'swirt-50': '#F6F5F3',
         'brand-primary-100': '#E8E8E8',
         'brand-primary-200': '#D0CFCE',
         'brand-primary-900': '#2D2A26',
-        divider2: '#D0CFCE',
-        'swirt-50': '#F6F5F3',
+        'brand-secondary-300': '#D9C19D',
         'brand-secondary-500': '#BD9A5F',
         'brand-accent-50': '#F6F5F3',
+        'brand-accent2-500': '#85754E',
       },
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],

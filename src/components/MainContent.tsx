@@ -4,6 +4,7 @@ import TotalUpoints from './TotalUpoints';
 import TotalNights from './TotalNights';
 import PointsExpring from './PointsExpring';
 import TabComponent from './TabComponent/TabComponent';
+import LatestOfferComponent from './LatestOffersComponent/LatestOfferComponent';
 
 type Props = {};
 
@@ -25,6 +26,7 @@ const MainContent: React.FC<Props> = (props: Props) => {
           <PointsExpring />
         </div>
         <TabComponent />
+        <LatestOfferComponent />
       </div>
     </div>
   );

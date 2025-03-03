@@ -4,7 +4,7 @@ type Props = {};
 
 const SilverTierCard = (props: Props) => {
   return (
-    <div className="bg-white rounded-xl w-[648px] p-8 flex flex-col justify-between ml-5">
+    <div className="bg-white rounded-xl min-w-[648px] p-8 flex flex-col justify-between ml-5">
       <div>
         <div className="flex justify-between">
           <div className="font-manrope font-bold text-base">Unlock Silver Tier Next:</div>
