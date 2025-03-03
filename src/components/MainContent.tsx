@@ -5,12 +5,13 @@ import TotalNights from './TotalNights';
 import PointsExpring from './PointsExpring';
 import TabComponent from './TabComponent/TabComponent';
 import LatestOfferComponent from './LatestOffersComponent/LatestOfferComponent';
+import Footer from './Footer/Footer';
 
 type Props = {};
 
 const MainContent: React.FC<Props> = (props: Props) => {
   return (
-    <div className=" flex justify-center items-center bg-swirt-50 py-[72px]">
+    <div className="flex justify-center items-center bg-swirt-50 pt-[72px] pb-24">
       <div>
         {/* Heading  */}
         <div className="text-brand-primary-900 font-manrope">

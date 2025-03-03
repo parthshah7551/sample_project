@@ -6,7 +6,7 @@ const Navbar: React.FC<Props> = ({}) => {
   // Explicitly type the component with Props
   return (
     <div className="py-4 px-8">
-      <div className="container flex justify-between">
+      <div className="flex justify-between">
         {/* Logo and "BY EMAAR" */}
         <div className="flex items-center">
           <img src="/assets/logo_by_emaar.png" alt="Logo" className="h-16" />
